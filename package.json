@@ -1,0 +1,25 @@
+{
+  "name": "ceca",
+  "version": "1.0.0",
+  "description": "Critique, Explore, Compare, Adapt",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss ./src/index.css -o ./docs/index.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/karlmcguire/ceca.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karlmcguire/ceca/issues"
+  },
+  "homepage": "https://github.com/karlmcguire/ceca#readme",
+  "dependencies": {
+    "autoprefixer": "^9.7.4",
+    "postcss-cli": "^7.1.0",
+    "tailwindcss": "^1.2.0"
+  }
+}
